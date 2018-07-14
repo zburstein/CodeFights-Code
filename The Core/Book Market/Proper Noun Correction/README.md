@@ -8,7 +8,7 @@ properNounCorrection(noun) = "John".
 Input/Output
 [execution time limit] 4 seconds (rb)
 [input] string noun
-A string representing a proper noun with a mix of capital and small Latin letters.
+A string representing a proper noun with a mix of capital and small English letters.
 Guaranteed constraints:
 1 ≤ noun.length ≤ 10.
 [output] string

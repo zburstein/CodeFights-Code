@@ -4,10 +4,10 @@ A person contradicts Mary's belief if one of the following statements is true:
 they are young and beautiful but not loved;
 they are loved but not young or not beautiful.
 Example
-For young = true, beautiful = true and loved = true, the output should be
+For young = true, beautiful = true, and loved = true, the output should be
 willYou(young, beautiful, loved) = false.
 Young and beautiful people are loved according to Mary's belief.
-For young = true, beautiful = false and loved = true, the output should be
+For young = true, beautiful = false, and loved = true, the output should be
 willYou(young, beautiful, loved) = true.
 Mary doesn't believe that not beautiful people can be loved.
 Input/Output

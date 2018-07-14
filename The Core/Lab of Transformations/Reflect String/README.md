@@ -9,7 +9,7 @@ Input/Output
 [input] string inputString
 A string of lowercase characters.
 Guaranteed constraints:
-3 ≤ inputString.length ≤ 10.
+3 ≤ inputString.length ≤ 1000.
 [output] string
 [Ruby] Syntax Tips
 # Prints help message to the console

@@ -1,13 +1,6 @@
 def isLucky(n)
-    x = n.to_s.split('')
-    first = 0
-    second = 0
-    for i in 0..x.length/2 - 1
-        first+= x[i].to_i
-    end
-    for i in x.length/2..x.length-1
-        second+=x[i].to_i
-    end
-    first == second
+    string = n.to_s.chars.map(&:to_i)
+    string[0..string.length/2 - 1].inject(&:+) == 
+        string[string.length/2..string.length-1].inject(&:+)
 end
 

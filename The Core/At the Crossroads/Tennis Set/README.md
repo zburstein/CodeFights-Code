@@ -2,7 +2,7 @@ In tennis, a set is finished when one of the players wins 6 games and the other 
 Determine if it is possible for a tennis set to be finished with the score score1 : score2.
 Example
 For score1 = 3 and score2 = 6, the output should be
-tennisSet(score1, score2) = true.
+tennisSet(score1, score2) = true;
 For score1 = 8 and score2 = 5, the output should be
 tennisSet(score1, score2) = false.
 Since both players won at least 5 games, the set would've ended once one of them won the 7th one.

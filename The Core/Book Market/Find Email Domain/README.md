@@ -4,7 +4,7 @@ Given a valid email address, find its domain part.
 Example
 For address = "prettyandsimple@example.com", the output should be
 findEmailDomain(address) = "example.com";
-For address = "<>[]:,;@\"!#$%&*+-/=?^_{}| ~.a\"@example.org", the output should be
+For address = "<>[]:,;@"!#$%&*+-/=?^_{}| ~.a"@example.org", the output should be
 findEmailDomain(address) = "example.org".
 Input/Output
 [execution time limit] 4 seconds (rb)

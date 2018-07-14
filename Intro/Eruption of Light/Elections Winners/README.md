@@ -10,7 +10,7 @@ The third candidate can win even if none of the remaining candidates vote for hi
 The last candidate can't win no matter what (for the same reason as the first candidate).
 Thus, only 2 candidates can win (the second and the third), which is the answer.
 Input/Output
-[execution time limit] 4 seconds (rb)
+[execution time limit] 4 seconds (py3)
 [input] array.integer votes
 A non-empty array of non-negative integers. Its ith element denotes the number of votes cast for the ith candidate.
 Guaranteed constraints:
@@ -21,10 +21,9 @@ The number of voters who haven't cast their vote yet.
 Guaranteed constraints:
 0 ≤ k ≤ 105.
 [output] integer
-[Ruby] Syntax Tips
+[Python3] Syntax Tips
 # Prints help message to the console
 # Returns a string
-def helloWorld(name)
-    print "This prints to the console when you Run Tests"
+def helloWorld(name):
+    print("This prints to the console when you Run Tests")
     return "Hello, " + name
-end

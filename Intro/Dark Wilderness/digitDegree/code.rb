@@ -1,15 +1,15 @@
 def digitDegree(n)
-    step = 0
-    current = n
-    while current.to_s.length != 1
-        sum = 0
-        current.to_s.chars.each do |x|
-            sum+=x.to_i
-        end
-        current = sum
-        step+=1
+    i = 0
+    while n / 10 != 0
+        n = sum_of_digits n
+        i += 1
     end
-    
-    step
+    i
 end
+
+def sum_of_digits(n)
+    return 0 if n == 0
+    return sum_of_digits(n/10) + (n % 10)
+end
+    
 
